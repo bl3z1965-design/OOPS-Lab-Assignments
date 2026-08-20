@@ -1,3 +1,7 @@
+// 5. Differentiate between private and public access/scope. Perform the question no. 4
+// with class instead of structure with having the data members private and some
+// member functions in private scope and some in public scope.
+
 #include <iostream>
 #include <string>
 using namespace std;

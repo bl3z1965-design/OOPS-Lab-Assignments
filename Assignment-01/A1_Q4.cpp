@@ -1,3 +1,21 @@
+// 4. Create a structure in C++ containing the details of Students as details below and a
+// main function to execute the structure.
+// Data Members(properties):
+
+// Name
+// Roll No
+// Degree
+// Hostel
+// CurrentCGPA
+
+// Member Function(behavior):
+
+// addDetails();
+// updateDetails();
+// updateCGPA();
+// updateHostel();
+// displaydetails();
+
 #include <iostream>
 #include <string>
 using namespace std;

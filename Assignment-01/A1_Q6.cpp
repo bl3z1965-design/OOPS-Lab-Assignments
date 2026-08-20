@@ -1,3 +1,7 @@
+// 6. Create a code snippet that illustrates the following:
+// a. Calling of private member functions inside public member function
+// b. Access private member functions inside public member function
+
 #include <iostream>
 #include <string>
 using namespace std;
