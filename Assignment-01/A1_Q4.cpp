@@ -104,12 +104,8 @@ int main(){
     s1.addDetails();
     s1.displayDetails();
     
-    s1.updateDetails();
-    s1.displayDetails();
-    
-    s1.updateHostel();
-    s1.displayDetails();
-    
+    s1.updateDetails(); 
+    s1.updateHostel();    
     s1.updateCGPA();
     s1.displayDetails();
     
