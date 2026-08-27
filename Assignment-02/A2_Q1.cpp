@@ -1,3 +1,7 @@
+// 1. Write a C++ program to create a class Student with data members name and
+// rollNo. Use a default constructor to initialize these values and display the
+// student details.
+
 #include <iostream>
 #include <string>
 using namespace std;
