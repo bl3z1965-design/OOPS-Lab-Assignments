@@ -12,6 +12,30 @@ class College{
 
     protected:
         string Name;
-        College(string n) : Name(n) {}
+        College(string n) : Name(n) { cout << "Base Class Constructor" << endl; }
 
 };
+
+class Department : public College{
+
+    private:
+        string Department_Name;
+
+    public:
+        Department(string n, string d) : College(n), Department_Name(d) { cout << "Derived Class Constructor" << endl; }
+
+        void display(){
+
+            cout << "College Name: " << Name << endl;
+            cout << "Department Name: " << Department_Name << endl;
+
+        }
+};
+
+int main(){
+
+    Department d1("Thapar", "CSE");
+    d1.display();
+    return 0;
+
+}
