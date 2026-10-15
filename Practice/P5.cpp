@@ -16,7 +16,7 @@ class DinamicArray{
                 }      
             }
         }
-        DinamicArray(DinamicArray&& other) : data(other.data), row(other.row), col(other.col){
+        DinamicArray(DinamicArray&& other) noexcept : data(other.data), row(other.row), col(other.col){
             other.data = nullptr;
             other.row = 0;
             other.col = 0;
