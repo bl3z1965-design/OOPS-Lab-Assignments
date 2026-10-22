@@ -14,9 +14,7 @@ class Number{
             return num;
         }
         Number operator+(const Number &obj){
-            Number temp(0);
-            temp.num = num + obj.num;
-            return temp;
+            return Number(num + obj.num);
         }
 };
 

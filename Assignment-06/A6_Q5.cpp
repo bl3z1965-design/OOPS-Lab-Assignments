@@ -15,10 +15,7 @@ class Complex{
     public:
         Complex(double a, double b) : re(a), im(b) {}
         Complex operator+(const Complex &obj){
-            Complex temp(0, 0);
-            temp.re = re = obj.re;
-            temp.im = im + obj.im;
-            return temp;
+            return Complex(re + obj.re,im + obj.im);
         }
         void display(){
             cout << re << (im < 0 ? " - " : " + ") << abs(im) << "i" << endl;
